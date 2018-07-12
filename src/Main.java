@@ -10,7 +10,8 @@ public class Main {
         A1.setAge(30);
         A1.setGithubName("John20");
         A1.setCurrentProject("System Security");
-        A1.toString();
+
+        System.out.println(A1);
 
     }
 }
