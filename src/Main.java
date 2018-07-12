@@ -1,17 +1,37 @@
 public class Main {
 
     public static void main(String[] args) {
-        Developer A1=new Developer();
-        A1.setId(1);
-        A1.setName("John");
-        A1.setSurname("Word");
-        A1.setSalary(80000);
-        A1.setExperience(22);
-        A1.setAge(30);
-        A1.setGithubName("John20");
-        A1.setCurrentProject("System Security");
+        Developer DeveloperOne=new Developer();
+        DeveloperOne.setId(1);
+        DeveloperOne.setName("John");
+        DeveloperOne.setSurname("Word");
+        DeveloperOne.setSalary(80000);
+        DeveloperOne.setExperience(22);
+        DeveloperOne.setAge(30);
+        DeveloperOne.setGithubName("John20");
+        DeveloperOne.setCurrentProject("System Security");
 
-        System.out.println(A1);
+        Developer DeveloperTwo=new Developer();
+        DeveloperTwo.setId(2);
+        DeveloperTwo.setName("Ford");
+        DeveloperTwo.setSurname("Nework");
+        DeveloperTwo.setSalary(64500);
+        DeveloperTwo.setExperience(18);
+        DeveloperTwo.setAge(26);
+        DeveloperTwo.setGithubName("FordNew");
+        DeveloperTwo.setCurrentProject("Mobile app");
+
+        Manager ManagerOne=new Manager();
+        ManagerOne.setId(3);
+        ManagerOne.setName("Howard");
+        ManagerOne.setSurname("Dino");
+        ManagerOne.setSalary(32000);
+        ManagerOne.setExperience(4);
+        ManagerOne.setAge(22);
+        ManagerOne.setTableNumber(10);
+
+        System.out.println(DeveloperOne);
+        System.out.println(ManagerOne);
 
     }
 }
