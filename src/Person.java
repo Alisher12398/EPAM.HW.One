@@ -1,10 +1,13 @@
-import java.util.Date;
 
 public class Person {
     private String name;
     private String surname;
     private int age;
-    private Date birthday;
+    private int id;
+
+    public void setId(int id){
+        this.id=id;
+    }
 
     public void setName(String name){
         this.name=name;
@@ -18,8 +21,9 @@ public class Person {
         this.age=age;
     }
 
-    public void setBirthday(Date birthday){
-        this.birthday=birthday;
+
+    public int getId(){
+        return id;
     }
 
     public String getName(){
@@ -34,8 +38,9 @@ public class Person {
         return age;
     }
 
-    public Date getBirthday(){
-        return birthday;
+    @Override
+    public String toString(){
+        return  "\nAlpha Bank information:\n" + "\nID: " + getId() + "\nName: " + getName() + "\nSurname: " + getSurname() + "\nAge: " + getAge();
     }
 
 }

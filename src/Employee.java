@@ -18,4 +18,10 @@ public class Employee extends Person{
         return experience;
     }
 
+    @Override
+    public String toString(){
+        return super.toString() + "\nSalary (year): " + getSalary() + "\nExperience (month): " + getExperience();
+    }
+
+
 }

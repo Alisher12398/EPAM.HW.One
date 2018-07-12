@@ -8,4 +8,9 @@ public class Manager extends Employee{
     public int getTableNumber(){
         return tableNumber;
     }
+
+    @Override
+    public String toString(){
+        return  super.toString() + "\nPosition: " + getClass().getName() + "\nTable number: " + getTableNumber();
+    }
 }
