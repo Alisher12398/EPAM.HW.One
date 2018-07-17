@@ -6,6 +6,5 @@ Hierarchy:
                 |     |
         Employee      Client
      |        |  
- Developer   Manager 
+ Developer   Manager
 
-//
