@@ -3,7 +3,7 @@
 Hierarchy:
     
                 Person
-                |
-          Employee
-         |        |  
-     Developer   Manager 
+                |     |
+        Employee      Client
+      |        |  
+ Developer   Manager 
