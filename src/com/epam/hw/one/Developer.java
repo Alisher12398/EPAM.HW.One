@@ -1,4 +1,6 @@
-public class Developer extends Employee{
+package com.epam.hw.one;
+
+public class Developer extends Employee {
     private String currentProject;
     private String githubName;
 
